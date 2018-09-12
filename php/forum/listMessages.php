@@ -5,6 +5,7 @@
  * Date: 11/09/2018
  * Time: 12:09
  */
+session_start();
 include('../functions.php');
 
 $bdd = getDataBase();
@@ -17,11 +18,15 @@ foreach ($messages as $message){
 }
 
 
-//displayVar();
+
 ?>
 <br/><br/>
-<form method="post" action="addMessageForum.php">
-    <textarea id="contenu" rows="10" cols="50">
+<form method="post" action="addMessage.php">
+    <input type="hidden" id="idAuteur" name="idAuteur" value="<?= $_SESSION['idEtudiant'] ?>"/>
+    <input type="hidden" id="idSujet" name="idSujet" value="<?= $messages[0]['idSujet'] ?>"/>
+    <textarea id="contenu" name="contenu" rows="10" cols="50">
     </textarea>
-    <input type="submit" id="newMessage" value="Submit">
+    <input type="submit" value="Submit">
 </form>
+
+<?= displayVar(); ?>
