@@ -5,16 +5,20 @@
  * Date: 11/09/2018
  * Time: 12:09
  */
+if(isset($_GET) && count($_GET) > 0 ){
 session_start();
 include('../functions.php');
-
+echo "<a href='listSujets.php'>Retour<a/>";
 $bdd = getDataBase();
-$stmt = $bdd->prepare("SELECT idMessage, idAuteur, idSujet, contenu, dateMessage, idEtudiant, pseudo FROM message, etudiant WHERE idSujet = 1 AND message.idAuteur = etudiant.idEtudiant ORDER BY message.dateMessage ASC");
+
+$stmt = $bdd->prepare("SELECT m.idMessage, m.idAuteur, m.idSujet, contenu, dateMessage, m.idAuteur, pseudo, s.nomSujet 
+FROM message m, etudiant e, sujet s WHERE m.idSujet = :idSujet AND m.idAuteur = e.idEtudiant AND s.idSujet = m.idSujet ORDER BY m.dateMessage ASC");
+$stmt->bindParam(':idSujet', $_GET["id"]);
 $stmt->execute();
 $messages = $stmt->fetchAll();
-echo "<h2>Sujet : test</h2>";
+echo "<h3>Sujet : ".$messages[0]['nomSujet']."</h3>";
 foreach ($messages as $message){
-    echo "<br/><br/>Message de ".$message['pseudo']." le ".$message['dateMessage']."<br/>".$message['contenu'];
+    echo "<br/>Message de ".$message['pseudo']." le ".$message['dateMessage']."<br/>".$message['contenu']."<br/>";
 }
 
 
@@ -28,5 +32,8 @@ foreach ($messages as $message){
     </textarea>
     <input type="submit" value="Submit">
 </form>
+<?php } else
+    header('Location:listSujets.php');
+//displayVar();
+?>
 
-<?= displayVar(); ?>

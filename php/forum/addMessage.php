@@ -28,12 +28,13 @@ if (isset($_POST) && count($_POST) > 0) {
             $nbInsert = 0;
         }
         if ($nbInsert == 1) {
-            header('Location:listMessages.php');
+            header('Location:listMessages.php?id='.$idSujet);
         } else {
             echo "Le message n'as pas été envoyé.";
         }
 
-}
+}else
+    header('Location:listSujets.php');
 
 //displayVar();
 ?>
