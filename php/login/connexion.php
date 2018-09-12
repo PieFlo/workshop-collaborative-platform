@@ -11,11 +11,12 @@ if (isset($_POST['email']) and isset($_POST['motdepasse'])) {
  if ($donnee=$requete->fetch()) { // si tu trouves un resultat
         if ($donnee['motdepasse']==$_POST['motdepasse']) {
             session_start();
-            $reponse = $bdd->query('SELECT idEtudiant, nom, prenom, email FROM etudiant ');
+            $reponse = $bdd->query('SELECT idEtudiant, pseudo, nom, prenom, email FROM etudiant ');
 
                 // On affiche chaque entrée une à une
     while ($test = $reponse->fetch()){
         $_SESSION['idEtudiant']=$donnee['idEtudiant'];
+        $_SESSION['pseudo']=$donnee['pseudo'];
         $_SESSION['nom']=$donnee['nom'];
         $_SESSION['prenom']=$donnee['prenom'];
         $_SESSION['email']=$donnee['email'];

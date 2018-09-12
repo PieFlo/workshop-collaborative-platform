@@ -35,4 +35,10 @@ function genererMDP($nb_car, $chaine = 'azertyuiopqsdfghjklmwxcvbn123456789')
     }
     return $generation;
 }
+
+function displayVar(){  // UNIQUEMENT POUR LE DEV
+    echo '<pre>';       // affiche toutes les variables initialisées
+    print_r($GLOBALS);
+    echo '</pre>';
+}
 ?>
