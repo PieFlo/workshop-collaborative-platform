@@ -40,12 +40,12 @@
             <label for="arrive">Heure d'arrive</label>
             <input type="time" id="appt-time" name="arrive"
                    min="9:30" max="11:00" required />
-            <span class="hours">Office hours: 9:30AM to 11AM</span><br/>
+            <span class="hours">Office hours: 9:30 to 11</span><br/>
 
             <label for="appt-time">Heure depart</label>
             <input type="time" id="appt-time" name="depart"
                    min="14:00" max="16:00" required />
-            <span class="hours">Office hours: 14:00AM to 4:30PM</span><br/>
+            <span class="hours">Office hours: 14:00 to 16:30</span><br/>
 
             E-mail: <input type="email" name="email"><br/>
 
