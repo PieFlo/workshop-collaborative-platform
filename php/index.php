@@ -100,9 +100,9 @@ session_start();
 							<a href="#"><img class="img-responsive" src="../images/place-1.jpg" alt=""></a>
 							<div class="blog-text">
 								<div class="prod-title">
-									<h2><a href="#">Accès au foodtruck</a></h2>
+									<h2><a href="foodTruck_et_plat/ListingPlat.php">Accès au foodtruck</a></h2>
 									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<p><a href="#">Voir plus...</a></p>
+									<p><a href="foodTruck_et_plat/ListingPlat.php">Voir plus...</a></p>
 								</div>
 							</div> 
 						</div>

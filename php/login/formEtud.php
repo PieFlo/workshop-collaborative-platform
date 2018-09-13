@@ -13,6 +13,9 @@
 		<div class="limiter">
 			<div class="container-login100" style="background-image: url('images/img-01.jpg');">
 				<div class="wrap-login100 p-t-190 p-b-30">
+                    <div class="text-center w-full">
+                        <h1><a class="txt1" href="../../index.html">Revenir à l'accueil</a></h1><br>
+                    </div>
 					<form class="login100-form validate-form" action="connexion.php" method="POST">
 						<div class="wrap-input100 validate-input m-b-10" data-validate = "Identifiant requis">
 							<input class="input100" type="text" name="email" placeholder="Email">
