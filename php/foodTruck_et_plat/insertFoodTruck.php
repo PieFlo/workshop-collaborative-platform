@@ -34,24 +34,34 @@ if((isset($_POST['nom'])) and (isset($_POST['email'])) and (isset($_POST['arrive
 
     if ($req->execute()){
         echo 'Enregistrement reussi';
+        $_SESSION["nom"] = $_POST['nom'];
+        $_SESSION["mdp"] = $pass;
 
-       /* $to = $_POST['email'];
-        // Subject
-        $subject = 'Inscription Biocash';
-        $id = $_POST['email'];
-        session_start();
-        $mdp = $_SESSION['mdp'];
-        // Message
-        $msg = "Bonjour votre inscription chez Biocash a été validée, \n voici votre Identifiant client : ".$id."\n votre mot de passe : ".$mdp." ";
+        $reponse = $bdd->prepare("SELECT idTruck FROM foodtruck WHERE nom = ? and mdp = ?");
+        $reponse->execute([$_SESSION['nom'] , $_SESSION['mdp']]);
+        $arr = $reponse->fetch();
+        if($arr){
+            $_SESSION['idTruck']=$arr['idTruck'];
+        }
+        $reponse = null;
 
-// Function mail()
-        mail($to, $subject, $msg);*/
 
+        /* $to = $_POST['email'];
+         // Subject
+         $subject = 'Inscription Biocash';
+         $id = $_POST['email'];
+         session_start();
+         $mdp = $_SESSION['mdp'];
+         // Message
+         $msg = "Bonjour votre inscription chez Biocash a été validée, \n voici votre Identifiant client : ".$id."\n votre mot de passe : ".$mdp." ";
+
+ // Function mail()
+         mail($to, $subject, $msg);*/
 
     } else {
         echo 'Veuillez remplir tous les champs';
     }
     $req->closeCursor();
 }
-
+var_dump($_SESSION['idTruck']);
 ?>

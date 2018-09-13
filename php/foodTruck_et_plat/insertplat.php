@@ -2,9 +2,16 @@
 //protection pour le backoffice
 session_start();
 include("../functions.php");
+if (!isset($_SESSION['nom']) and !isset($_SESSION['mdp']) and !isset($_SESSION['idTruck'])) {
+    echo "Vous n'êtes pas connecté.";
+    header("location:" . "../index.php");
+    exit;
+
+}
 
 $bdd = getDatabase();
 var_dump($_POST);
+var_dump($_SESSION);
 /*idTruck int not null auto_increment,
 nom varchar(250),
 email varchar(250),
@@ -15,7 +22,7 @@ depart time(0),
 campus varchar(250),
 primary key(idTruck)*/
 
-if((isset($_POST['nom'])) and (isset($_POST['prix'])) and (isset($_POST['quantite'])) and (isset($_POST['regime'])) AND (isset($_POST['allergies']))  AND (isset($_POST['idCamion']))) {
+if((isset($_POST['nom'])) and (isset($_POST['prix'])) and (isset($_POST['quantite'])) and (isset($_POST['regime'])) AND (isset($_POST['allergies']))  AND (isset($_SESSION['idTruck'][0]))) {
 
 
     $req = $bdd->prepare('INSERT INTO plat (nom, prix, quantite, regime, allergies , idCamion ) VALUES( :nom, :prix, :quantite, :regime, :allergies , :idCamion)');
@@ -25,7 +32,7 @@ if((isset($_POST['nom'])) and (isset($_POST['prix'])) and (isset($_POST['quantit
     $req->bindValue(':quantite', $_POST['quantite'], PDO::PARAM_STR);
     $req->bindValue(':regime', $_POST['regime'], PDO::PARAM_STR);
     $req->bindValue(':allergies', $_POST['allergies'], PDO::PARAM_STR);
-    $req->bindValue(':idCamion', $_POST['idCamion'], PDO::PARAM_INT);
+    $req->bindValue(':idCamion', $_SESSION['idTruck'], PDO::PARAM_INT);
 
     if ($req->execute()){
         echo 'Enregistrement reussi';
