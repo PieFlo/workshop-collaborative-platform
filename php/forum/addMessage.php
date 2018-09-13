@@ -41,6 +41,19 @@ if (isset($_POST) && count($_POST) > 0) {
         $nbInsert = 0;
     }
     if ($nbInsert > 0) {
+        if(isset($_POST['idSujet'])){ // Si on vient de addMessage.php
+            try
+            {
+                $stmt = $bdd->prepare ("UPDATE sujet SET dateDernierMsg = :dateMessage WHERE idSujet = :idSujet ");
+                $stmt->bindParam(':idSujet', $idSujet);
+                $stmt->bindParam(':dateMessage', $dateMessage);
+                $nbModifs = $stmt->execute();
+            }
+            catch (Exception $e)
+            {
+                $nbModifs = 0;
+            }
+        }
         header('Location:listMessages.php?id='.$idSujet);
     } else {
         echo "Le message n'as pas été envoyé.";
