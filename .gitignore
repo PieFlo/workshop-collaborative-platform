@@ -1,3 +1,4 @@
 
 *.xml
 .idea/workshop-collaborative-platform.iml
+.idea/workspace.xml
