@@ -7,6 +7,7 @@ if (!isset($_SESSION['idAdmin'])) {
     exit;
 }
 */?>
+
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <!-- Custom fonts for this template-->
 <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -17,7 +18,7 @@ if (!isset($_SESSION['idAdmin'])) {
 
 <div class="card mb-3">
     <div class="card-header">
-        <i class="fa fa-table"></i> Listes des bonnes adresses
+        <i class="fa fa-table"></i> Listes des bonnes adresses<br>
     </div>
     <div class="card-body">
         <div class="table-responsive">
@@ -37,7 +38,7 @@ if (!isset($_SESSION['idAdmin'])) {
                 </tr>
                 </thead>
                 <?php
-                include('./functions.php');
+                include('../functions.php');
                 $bdd = $bdd = getDatabase();
                 $reponse = $bdd->query('SELECT * FROM bonneaddresse');
                 while ($row1 = $reponse->fetch()) {
@@ -57,9 +58,9 @@ if (!isset($_SESSION['idAdmin'])) {
                         <td><?php echo $row1['idAvis']; ?></td>
                         <td>
                             <?php
-                            echo "Modifier : <a href='EditBonneAdresse.php?id=" . $row1["idBonAddresse"] . "'>" . $row1["idBonAddresse"] . "<a><br>";
+                            echo "Modifier : <a href='EditBonneAdresse.php?id=" . $row1["idBonAddresse"] . "'>" . "Modifier une bonne adresse" . "<a><br>";
                             echo "supprimer : <a href='DeleteBonneAdresse.php?id=" . $row1["idBonAddresse"] . "'>" . $row1["idBonAddresse"] . "<a><br>";
-                            echo "ajouter une recette : <a href='AddBonneAdresse.php?id=" . $row1["idBonAddresse"] . "'>" . $row1["idBonAddresse"] . "<a>";
+                            /*echo "ajouter une recette : <a href='AddBonneAdresse.php?id=" . $row1["idBonAddresse"] . "'>" . "Ajouter une bonne adresse" . "<a>";*/
                             ?>
                         </td>
                     </tr>
@@ -69,6 +70,7 @@ if (!isset($_SESSION['idAdmin'])) {
                 $reponse->closeCursor(); // Termine le traitement de la requête
                 ?>
             </table>
+            <?php echo " <a href='AddBonneAdresse.php?id=" . $row1["idBonAddresse"] . "'>" . "Ajouter une bonne adresse" . "<a>"; ?>
         </div>
     </div>
 </div>

@@ -38,7 +38,7 @@ if (!isset($_SESSION['idAdmin'])) {
                 </tr>
                 </thead>
                 <?php
-                include('./functions.php');
+                include('../functions.php');
                 $bdd = $bdd = getDatabase();
                 $reponse = $bdd->query('SELECT * FROM recette');
                 while ($row1 = $reponse->fetch()) {
@@ -61,7 +61,7 @@ if (!isset($_SESSION['idAdmin'])) {
                             <?php
                             echo "Modifier : <a href='EditRecette.php?id=" . $row1["idRecette"] . "'>" . $row1["idRecette"] . "<a><br>";
                             echo "supprimer : <a href='DeleteRecette.php?id=" . $row1["idRecette"] . "'>" . $row1["idRecette"] . "<a><br>";
-                            echo "ajouter une recette : <a href='AddRecette.php?id=" . $row1["idRecette"] . "'>" . $row1["idRecette"] . "<a>";
+                            /*echo "ajouter une recette : <a href='AddRecette.php?id=" . $row1["idRecette"] . "'>" . $row1["idRecette"] . "<a>";*/
                             ?>
                         </td>
                     </tr>
@@ -71,6 +71,7 @@ if (!isset($_SESSION['idAdmin'])) {
                 $reponse->closeCursor(); // Termine le traitement de la requête
                 ?>
             </table>
+            <?php echo "<a href='AddRecette.php?id=" . $row1["idRecette"] . "'>" . "Ajouter une recette" . "<a>"; ?>
         </div>
     </div>
 </div>

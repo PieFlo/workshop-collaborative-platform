@@ -25,7 +25,7 @@ if (!isset($_SESSION['idAdmin'])) {
     header("location:" . "../login/formAdmin.php");
     exit;
 }*/
-include("./functions.php");
+include("../functions.php");
 
 $bdd = getDatabase();
 

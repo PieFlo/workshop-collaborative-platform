@@ -1,5 +1,5 @@
 <?php
-include("./functions.php");
+include("../functions.php");
 $bdd = getdatabase();
 // if the 'id' variable is set in the URL, we know that we need to edit
 if (isset($_GET['id'])) {
@@ -65,6 +65,7 @@ if (isset($_GET['id'])) {
         $req->execute();
 
         $req->closeCursor();
+        header('Location: DisplayRecette.php');
     }
 }
 ?>
