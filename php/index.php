@@ -112,9 +112,9 @@ session_start();
 							<a href="#"><img class="img-responsive" src="../images/place-2.jpg" alt=""></a>
 							<div class="blog-text">
 								<div class="prod-title">
-									<h2><a href="#">Les bonnes adresses</a></h2>
+									<h2><a href="Recette_Bonne_Adresse/ListingBonneAdresse.php">Les bonnes adresses</a></h2>
 									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<p><a href="#">Voir plus...</a></p>
+									<p><a href="Recette_Bonne_Adresse/ListingBonneAdresse.php">Voir plus...</a></p>
 								</div>
 							</div> 
 						</div>
@@ -125,9 +125,9 @@ session_start();
 							<a href="#"><img class="img-responsive" src="../images/place-3.jpg" alt=""></a>
 							<div class="blog-text">
 								<div class="prod-title">
-									<h2><a href="#">Les recettes</a></h2>
+									<h2><a href="Recette_Bonne_Adresse/ListingRecette.php">Les recettes</a></h2>
 									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<p><a href="#">Voir plus...</a></p>
+									<p><a href="Recette_Bonne_Adresse/ListingRecette.php">Voir plus...</a></p>
 								</div>
 							</div> 
 						</div>
