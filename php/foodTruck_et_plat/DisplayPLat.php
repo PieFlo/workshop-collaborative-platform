@@ -67,3 +67,14 @@ $idTruck = $_SESSION['idTruck'];
         </div>
     </div>
 </div>
+<?php
+if(isset($_SESSION['connecter']) and $_SESSION['connecter']== 1){
+    ?>
+    <script>
+        alert("vous étés dejá connecter");
+    </script>
+    <?php
+    $_SESSION['connecter']= 0;
+}
+
+?>

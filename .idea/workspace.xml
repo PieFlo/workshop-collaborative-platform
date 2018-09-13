@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90f59807-30d8-4490-be83-6417a8f24cb9" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/php/foodTruck_et_plat/ListingPlat.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/php/foodTruck_et_plat/DisplayPLat.php" afterPath="$PROJECT_DIR$/php/foodTruck_et_plat/DisplayPLat.php" />
-      <change beforePath="$PROJECT_DIR$/php/foodTruck_et_plat/EditAction.php" afterPath="$PROJECT_DIR$/php/foodTruck_et_plat/EditAction.php" />
-      <change beforePath="$PROJECT_DIR$/php/foodTruck_et_plat/EditPlat.php" afterPath="$PROJECT_DIR$/php/foodTruck_et_plat/EditPlat.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +14,69 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DisplayPLat.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/DisplayPLat.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="73" column="39" lean-forward="false" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+              <folding>
+                <marker date="1536843006486" expanded="true" signature="1343:1387" ph="SELECT * FRO... plat" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertplat.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/insertplat.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-69">
+              <caret line="34" column="53" lean-forward="false" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+              <folding>
+                <marker date="1536826741880" expanded="true" signature="748:882" ph="INSERT INTO plat... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connexionFoodTruck.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/connexionFoodTruck.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addFoodTruck.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/addFoodTruck.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="29" column="73" lean-forward="true" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeletePlat.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/DeletePlat.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <folding>
+                <marker date="1536759338217" expanded="true" signature="286:317" ph="DELETE FROM recette... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="insertFoodTruck.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/insertFoodTruck.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
+            <state relative-caret-position="493">
               <caret line="29" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <marker date="1536826390067" expanded="true" signature="605:726" ph="INSERT INTO foodtruck... " />
@@ -29,85 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insertPlatForm.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/insertPlatForm.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-645">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DisplayPLat.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/DisplayPLat.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="53" column="62" lean-forward="false" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="62" />
-              <folding>
-                <marker date="1536840319050" expanded="true" signature="664:1244" ph="..." />
-                <marker date="1536840319050" expanded="true" signature="694:758" ph="..." />
-                <marker date="1536840319050" expanded="true" signature="786:1244" ph="..." />
-                <marker date="1536840319050" expanded="true" signature="825:1244" ph="..." />
-                <marker date="1536840319050" expanded="true" signature="918:1244" ph="..." />
-                <marker date="1536840319050" expanded="true" signature="942:1152" ph="..." />
-                <marker date="1536840319050" expanded="true" signature="963:1127" ph="..." />
-                <marker date="1536840319050" expanded="true" signature="1176:1244" ph="..." />
-                <marker date="1536840319050" expanded="true" signature="1197:1244" ph="..." />
-                <marker date="1536840319050" expanded="true" signature="1343:1382" ph="SELECT * FRO... plat" />
-                <marker date="1536840319050" expanded="true" signature="1343:1387" ph="SELECT * FRO... plat" />
-                <marker date="1536840319050" expanded="true" signature="1546:1568" ph="..." />
-                <marker date="1536840319050" expanded="true" signature="1567:1568" ph="..." />
-                <marker date="1536840319050" expanded="true" signature="1838:1918" ph="..." />
-                <marker date="1536840319050" expanded="true" signature="1998:2055" ph="..." />
-                <marker date="1536840319050" expanded="true" signature="2133:2140" ph="..." />
-                <marker date="1536840319050" expanded="true" signature="2140:2502" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insertplat.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/insertplat.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="34" column="53" lean-forward="false" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
-              <folding>
-                <marker date="1536826741880" expanded="true" signature="748:882" ph="INSERT INTO plat... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insertImage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/insertImage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-              <folding>
-                <marker date="1536741922055" expanded="true" signature="809:880" ph="INSERT into images... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeletePlat.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/DeletePlat.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-              <folding>
-                <marker date="1536759338217" expanded="true" signature="286:317" ph="DELETE FROM recette... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditPlat.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EditPlat.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/EditPlat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-103">
-              <caret line="26" column="68" lean-forward="false" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+            <state relative-caret-position="153">
+              <caret line="9" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
               <folding>
                 <marker date="1536840188783" expanded="true" signature="1415:1676" ph="UPDATE plat... " />
                 <marker date="1536840188783" expanded="true" signature="1415:1694" ph="UPDATE plat... " />
@@ -117,38 +101,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditPlatTEST.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/EditPlatTEST.php">
+      <file leaf-file-name="insertPlatForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/insertPlatForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-336">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="322">
+              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="92" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListingPlat.php" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/ListingPlat.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
               <folding>
-                <marker date="1536840770444" expanded="true" signature="1388:1775" ph="UPDATE plat... " />
+                <marker date="1536843060959" expanded="true" signature="1615:1633" ph="SELECT * FRO... plat" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditAction.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/EditAction.php">
+      <file leaf-file-name="ListingPlat.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/ListingPlat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="1088">
+              <caret line="64" column="11" lean-forward="true" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
               <folding>
-                <marker date="1536839957140" expanded="true" signature="301:394" ph="UPDATE plat... " />
-                <marker date="1536839957140" expanded="true" signature="301:400" ph="UPDATE plat... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditRecette.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/Recette_Bonne_Adresse/EditRecette.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="68" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="68" />
-              <folding>
-                <marker date="1536752423694" expanded="true" signature="1768:2301" ph="UPDATE recette... " />
+                <element signature="e#6#88#0#PHP" expanded="true" />
+                <marker date="1536843392034" expanded="true" signature="311:363" ph="SELECT nom, etudiant" />
+                <marker date="1536843392034" expanded="true" signature="1616:1634" ph="SELECT * FRO... plat" />
               </folding>
             </state>
           </provider>
@@ -184,15 +167,17 @@
         <option value="$PROJECT_DIR$/php/login/formEtud.php" />
         <option value="$PROJECT_DIR$/php/login/insertplat.php" />
         <option value="$PROJECT_DIR$/php/login/insertPlatForm.php" />
-        <option value="$PROJECT_DIR$/php/foodTruck_et_plat/addFoodTruck.php" />
         <option value="$PROJECT_DIR$/php/foodTruck_et_plat/DeletePlat.php" />
         <option value="$PROJECT_DIR$/php/foodTruck_et_plat/insertPlatForm.php" />
         <option value="$PROJECT_DIR$/php/foodTruck_et_plat/insertFoodTruck.php" />
         <option value="$PROJECT_DIR$/php/foodTruck_et_plat/insertplat.php" />
         <option value="$PROJECT_DIR$/php/foodTruck_et_plat/EditAction.php" />
         <option value="$PROJECT_DIR$/php/foodTruck_et_plat/EditPlat.php" />
-        <option value="$PROJECT_DIR$/php/foodTruck_et_plat/DisplayPLat.php" />
         <option value="$PROJECT_DIR$/php/foodTruck_et_plat/EditPlatTEST.php" />
+        <option value="$PROJECT_DIR$/php/foodTruck_et_plat/connexionFoodTruck.php" />
+        <option value="$PROJECT_DIR$/php/foodTruck_et_plat/DisplayPLat.php" />
+        <option value="$PROJECT_DIR$/php/foodTruck_et_plat/addFoodTruck.php" />
+        <option value="$PROJECT_DIR$/php/foodTruck_et_plat/ListingPlat.php" />
       </list>
     </option>
   </component>
@@ -206,7 +191,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-54" />
     <option name="y" value="21" />
     <option name="width" value="938" />
@@ -269,13 +254,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../workshop2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\workshop-collaborative-platform\php\foodTruck_et_plat" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\workshop-collaborative-platform\php" />
       <recent name="C:\wamp64\www\workshop-collaborative-platform\foodTruck_et_plat" />
       <recent name="C:\wamp64\www\workshop-collaborative-platform\php\login" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\workshop-collaborative-platform\php\foodTruck_et_plat" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -303,33 +288,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536676272918</updated>
-      <workItem from="1536676274183" duration="47349000" />
+      <workItem from="1536676274183" duration="47854000" />
+      <workItem from="1536841751541" duration="1676000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47349000" />
+    <option name="totallyTimeSpent" value="49530000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24583964" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24583964" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -339,8 +326,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24583964" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -349,8 +336,8 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,6 +353,105 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/DisplayPLat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1536843006486" expanded="true" signature="1343:1387" ph="SELECT * FRO... plat" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/insertplat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="53" lean-forward="false" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+          <folding>
+            <marker date="1536826741880" expanded="true" signature="748:882" ph="INSERT INTO plat... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/insertImage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding>
+            <marker date="1536741922055" expanded="true" signature="809:880" ph="INSERT into images... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/DeletePlat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+          <folding>
+            <marker date="1536759338217" expanded="true" signature="286:317" ph="DELETE FROM recette... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/EditPlat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="68" lean-forward="false" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+          <folding>
+            <marker date="1536840188783" expanded="true" signature="1415:1676" ph="UPDATE plat... " />
+            <marker date="1536840188783" expanded="true" signature="1415:1694" ph="UPDATE plat... " />
+            <marker date="1536840188783" expanded="true" signature="2186:2294" ph="UPDATE plat... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/formImage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/EditPlatTEST.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding>
+            <marker date="1536840770444" expanded="true" signature="1388:1775" ph="UPDATE plat... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/EditAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <marker date="1536839957140" expanded="true" signature="301:394" ph="UPDATE plat... " />
+            <marker date="1536839957140" expanded="true" signature="301:400" ph="UPDATE plat... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Recette_Bonne_Adresse/EditRecette.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="68" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="68" />
+          <folding>
+            <marker date="1536752423694" expanded="true" signature="1768:2301" ph="UPDATE recette... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/addFoodTruck.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -378,31 +464,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/login/alertPlat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/formImage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/php/login/alertPlat.js" />
     <entry file="file://$PROJECT_DIR$/php/login/formEtud.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
           <caret line="48" column="14" lean-forward="false" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -450,11 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-52">
           <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-          <folding>
-            <marker date="1536752423712" expanded="true" signature="146:188" ph="SELECT * FRO... etudiant" />
-            <marker date="1536752423712" expanded="true" signature="474:493" ph="SELECT idEtu... etudiant" />
-            <marker date="1536752423712" expanded="true" signature="474:533" ph="SELECT idEtu... etudiant" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -462,10 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="47" />
-          <folding>
-            <marker date="1536676177755" expanded="true" signature="274:321" ph="SELECT email... etudiant" />
-            <marker date="1536676177755" expanded="true" signature="515:651" ph="INSERT INTO etudiant... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -473,7 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1197">
           <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -487,40 +546,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/addFoodTruck.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/deconnexion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <marker date="1536676177433" expanded="true" signature="278:389" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/insertPlatForm.php">
+    <entry file="file://$PROJECT_DIR$/php/Recette_Bonne_Adresse/EditRecette.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-645">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/insertFoodTruck.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="68" />
           <folding>
-            <marker date="1536826390067" expanded="true" signature="605:726" ph="INSERT INTO foodtruck... " />
-            <marker date="1536826390067" expanded="true" signature="1246:1543" ph="select idTru... foodtruck" />
-            <marker date="1536826390067" expanded="true" signature="1281:1336" ph="SELECT idTru... foodtruck" />
+            <marker date="1536752423694" expanded="true" signature="1768:2301" ph="UPDATE recette... " />
           </folding>
         </state>
       </provider>
@@ -535,32 +573,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/insertplat.php">
+    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/EditPlatTEST.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="34" column="53" lean-forward="false" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+        <state relative-caret-position="17">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding>
-            <marker date="1536826741880" expanded="true" signature="748:882" ph="INSERT INTO plat... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/Recette_Bonne_Adresse/EditRecette.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="68" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="68" />
-          <folding>
-            <marker date="1536752423694" expanded="true" signature="1768:2301" ph="UPDATE recette... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/DeletePlat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-          <folding>
-            <marker date="1536759338217" expanded="true" signature="286:317" ph="DELETE FROM recette... " />
+            <marker date="1536840770444" expanded="true" signature="1388:1775" ph="UPDATE plat... " />
           </folding>
         </state>
       </provider>
@@ -576,50 +594,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/DisplayPLat.php">
+    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/formImage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="53" column="62" lean-forward="false" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="62" />
-          <folding>
-            <marker date="1536840319050" expanded="true" signature="664:1244" ph="..." />
-            <marker date="1536840319050" expanded="true" signature="694:758" ph="..." />
-            <marker date="1536840319050" expanded="true" signature="786:1244" ph="..." />
-            <marker date="1536840319050" expanded="true" signature="825:1244" ph="..." />
-            <marker date="1536840319050" expanded="true" signature="918:1244" ph="..." />
-            <marker date="1536840319050" expanded="true" signature="942:1152" ph="..." />
-            <marker date="1536840319050" expanded="true" signature="963:1127" ph="..." />
-            <marker date="1536840319050" expanded="true" signature="1176:1244" ph="..." />
-            <marker date="1536840319050" expanded="true" signature="1197:1244" ph="..." />
-            <marker date="1536840319050" expanded="true" signature="1343:1382" ph="SELECT * FRO... plat" />
-            <marker date="1536840319050" expanded="true" signature="1343:1387" ph="SELECT * FRO... plat" />
-            <marker date="1536840319050" expanded="true" signature="1546:1568" ph="..." />
-            <marker date="1536840319050" expanded="true" signature="1567:1568" ph="..." />
-            <marker date="1536840319050" expanded="true" signature="1838:1918" ph="..." />
-            <marker date="1536840319050" expanded="true" signature="1998:2055" ph="..." />
-            <marker date="1536840319050" expanded="true" signature="2133:2140" ph="..." />
-            <marker date="1536840319050" expanded="true" signature="2140:2502" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/EditPlatTEST.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding>
-            <marker date="1536840770444" expanded="true" signature="1388:1775" ph="UPDATE plat... " />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/EditPlat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103">
-          <caret line="26" column="68" lean-forward="false" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
           <folding>
             <marker date="1536840188783" expanded="true" signature="1415:1676" ph="UPDATE plat... " />
             <marker date="1536840188783" expanded="true" signature="1415:1694" ph="UPDATE plat... " />
             <marker date="1536840188783" expanded="true" signature="2186:2294" ph="UPDATE plat... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/insertFoodTruck.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <marker date="1536826390067" expanded="true" signature="605:726" ph="INSERT INTO foodtruck... " />
+            <marker date="1536826390067" expanded="true" signature="1246:1543" ph="select idTru... foodtruck" />
+            <marker date="1536826390067" expanded="true" signature="1281:1336" ph="SELECT idTru... foodtruck" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/insertPlatForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="92" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/DeletePlat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <marker date="1536759338217" expanded="true" signature="286:317" ph="DELETE FROM recette... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/insertplat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="34" column="53" lean-forward="false" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+          <folding>
+            <marker date="1536826741880" expanded="true" signature="748:882" ph="INSERT INTO plat... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/connexionFoodTruck.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/DisplayPLat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="73" column="39" lean-forward="false" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+          <folding>
+            <marker date="1536843006486" expanded="true" signature="1343:1387" ph="SELECT * FRO... plat" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ListingPlat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <marker date="1536843060959" expanded="true" signature="1615:1633" ph="SELECT * FRO... plat" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/addFoodTruck.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="29" column="73" lean-forward="true" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/foodTruck_et_plat/ListingPlat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="11" lean-forward="true" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <marker date="1536843392034" expanded="true" signature="311:363" ph="SELECT nom, etudiant" />
+            <marker date="1536843392034" expanded="true" signature="1616:1634" ph="SELECT * FRO... plat" />
           </folding>
         </state>
       </provider>
