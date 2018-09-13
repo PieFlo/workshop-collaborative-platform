@@ -77,7 +77,6 @@ if($row = $response->fetch()) {
                 ?>
             </table>
             <a href="DisplayBonneAdresse.php">Mes bonnes adresses</a>
-            <a href="ListingBonneAdresse.php">Retour</a>
         </div>
     </div>
 </div>

@@ -70,6 +70,7 @@ if (!isset($_SESSION['idAdmin'])) {
                 $reponse->closeCursor(); // Termine le traitement de la requête
                 ?>
             </table>
+            <a href="ListingBonneAdresse.php">Retour</a>
             <?php echo " <a href='AddBonneAdresse.php?id=" . $row1["idBonAddresse"] . "'>" . "Ajouter une bonne adresse" . "<a>"; ?>
         </div>
     </div>

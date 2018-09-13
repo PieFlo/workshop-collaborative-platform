@@ -81,7 +81,6 @@ if($row = $response->fetch()) {
                 ?>
             </table>
             <a href="DisplayRecette.php.php">Mes recettes</a>
-            <a href="ListingRecette.php.php">Retour</a>
         </div>
     </div>
 </div>
