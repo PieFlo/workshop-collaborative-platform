@@ -11,6 +11,7 @@ if (!isset($_SESSION['nom']) and !isset($_SESSION['mdp']) and !isset($_SESSION['
 if (isset($_GET['idPlat'])) {
     var_dump($_POST);
     var_dump($_GET);
+    $idPlat = $_GET['idPlat'];
     ?>
     <!DOCTYPE html>
     <html>
@@ -23,7 +24,7 @@ if (isset($_GET['idPlat'])) {
         <p><input type="text" name="prix" placeholder="prix"></p>
         <p><input type="text" name="regime" placeholder="Regime spécifique"></p>
         <p><input type="text" name="allergies" placeholder="Allergies spécifique"></p>
-        <p><input type="hidden" name='idPlat' value="'"<? echo $_GET['idPlat']; ?>"'"></p>
+        <p><input type="hidden" name='idPlat' value="<? echo $_GET["idPlat"]; ?>"></p>
         <p><input name="submit" type="submit" value="Modifier"/></p>
     </form>
     </body>

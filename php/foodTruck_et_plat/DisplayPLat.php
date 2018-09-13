@@ -51,7 +51,7 @@ $idTruck = $_SESSION['idTruck'];
                     <td><?php echo $donnee['allergies']; ?></td>
                     <td>
                         <?php
-                        echo "Modifier : <a href='EditPlat.php?idPlat=" . $donnee['idPlat'] . "'>" . $donnee['idPlat'] . "<a><br>";
+                        echo "Modifier : <a href='EditPlatTEST.php?idPlat=" . $donnee['idPlat'] . "'>" . $donnee['idPlat'] . "<a><br>";
                         echo "supprimer : <a href='DeletePlat.php?idPlat=" . $donnee['idPlat'] . "'>" . $donnee['idPlat'] . "<a><br>";
                         ?>
                     </td>

@@ -2,6 +2,7 @@
 include("../functions.php");
 $objetPdo = getdatabase();
 var_dump($_POST);
+var_dump($_GET);
 if ((!empty($_POST['nom']))
     AND (!empty($_POST['prix']))
     AND (!empty($_POST['regime']))
