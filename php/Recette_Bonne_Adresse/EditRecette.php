@@ -65,6 +65,7 @@ if (isset($_GET['id'])) {
         $req->execute();
 
         $req->closeCursor();
+        header('Location: DisplayRecette.php');
     }
 }
 ?>
