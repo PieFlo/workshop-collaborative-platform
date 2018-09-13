@@ -4,7 +4,7 @@ session_start();
 include("../functions.php");
 if (!isset($_SESSION['nom']) and !isset($_SESSION['mdp']) and !isset($_SESSION['idTruck'])) {
     echo "Vous n'êtes pas connecté.";
-    header("location:" . "../index.php");
+    header("location:" . "connexionFoodTruck.php");
     exit;
 
 }
@@ -38,7 +38,7 @@ if((isset($_POST['nom'])) and (isset($_POST['prix'])) and (isset($_POST['quantit
         echo 'Enregistrement reussi';
         $_SESSION["enregistrement"] = 1;
         var_dump($_SESSION);
-        header('Location: insertPlatForm.php');
+        header('Location: DisplayPlat.php');
         /* $to = $_POST['email'];
          // Subject
          $subject = 'Inscription Biocash';

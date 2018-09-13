@@ -2,6 +2,7 @@
 include("../functions.php");
 $bdd = getdatabase();
 session_start();
+$_SESSION["edit"] = 0;
 // if the 'id' variable is set in the URL, we know that we need to edit
 if (isset($_GET['idPlat'])) {
     ?>
@@ -56,9 +57,30 @@ if (isset($_GET['idPlat'])) {
         $req->execute();
 
         $req->closeCursor();
+
+        $_SESSION["edit"]= 1 ;
+
     }
 }
 ?>
+<htmL>
+<head>
 
+</head>
+<body>
+<button><a href="DisplayPlat.php">Retour<a></button>
+<?php
+if(isset($_SESSION['edit']) and $_SESSION['edit']== 1){
+    ?>
+    <script>
+        alert("Plat modifie!");
+    </script>
+    <?php
+    $_SESSION['edit']= 0;
+}
+
+?>
+</body>
+</htmL>
 
 

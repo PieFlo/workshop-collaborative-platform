@@ -63,5 +63,4 @@ if((isset($_POST['nom'])) and (isset($_POST['email'])) and (isset($_POST['arrive
     }
     $req->closeCursor();
 }
-var_dump($_SESSION['idTruck']);
 ?>
