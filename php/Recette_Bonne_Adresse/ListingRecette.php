@@ -80,7 +80,7 @@ if($row = $response->fetch()) {
                 $reponse->closeCursor(); // Termine le traitement de la requête
                 ?>
             </table>
-            <a href="DisplayRecette.php.php">Mes recettes</a>
+            <a href="DisplayRecette.php">Mes recettes</a>
         </div>
     </div>
 </div>
