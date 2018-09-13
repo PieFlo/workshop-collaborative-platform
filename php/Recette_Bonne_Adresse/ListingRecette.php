@@ -50,7 +50,7 @@ if($row = $response->fetch()) {
                 </tr>
                 </thead>
                 <?php
-                include('./functions.php');
+                include('../functions.php');
                 $bdd = $bdd = getDatabase();
                 $reponse = $bdd->query('SELECT * FROM recette');
                 while ($row1 = $reponse->fetch()) {

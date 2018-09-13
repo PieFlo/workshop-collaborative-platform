@@ -1,5 +1,5 @@
 <?php 
-		include("functions.php");
+		include("../functions.php");
 		$bdd =getdatabase();
 $nom='DEBUG NOM';
 $auteur = 'DEBUG AUTEUR';
