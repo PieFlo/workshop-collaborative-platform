@@ -7,6 +7,7 @@
  */
 
 session_start();
+include('header.html');
 include('../functions.php');
 echo "<a href='addSujet.php'>Ajouter un nouveau sujet<a/><br/><br/>";
 $bdd = getDataBase();
@@ -30,4 +31,6 @@ foreach ($sujets as $sujet){
         <td><?php echo $sujet['dateDernierMsg'];?></td>
     </tr>
     <?php
-}?>
+}
+include('footer.html');
+?>

@@ -25,7 +25,7 @@ if (isset($_POST['email']) and isset($_POST['motdepasse'])) {
     $reponse->closeCursor(); // Termine le traitement de la requête
 
             echo'Vous êtes connecté';
-            header('location: ../../index.html'); // A changer une fois la page de redirection créer
+            header('location: ../index.php');
          } 
          else { 
          // Mot de passe incorrect

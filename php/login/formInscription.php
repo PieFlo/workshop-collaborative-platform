@@ -19,8 +19,17 @@
 						<h1><a class="txt1" href="../../index.html">Revenir à l'accueil</a></h1><br>
 					</div>
 					<form class="login100-form validate-form" action="inscription.php" method="POST">
-						
-						<div class="wrap-input100 validate-input m-b-10">
+
+                        <div class="wrap-input100 validate-input m-b-10">
+                            <label for="inputPseudo" class="sr-only">Pseudonyme d'anonymat</label>
+                            <input class="input100" type="text" name="pseudo" placeholder="pseudo" required autofocus>
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+								<i class="fa fa-user"></i>
+							</span>
+                        </div>
+
+                        <div class="wrap-input100 validate-input m-b-10">
 							<label for="inputNom" class="sr-only">Nom de famille</label>
 							<input class="input100" type="text" name="nom" placeholder="nom" required autofocus>
 							<span class="focus-input100"></span>

@@ -8,6 +8,6 @@ session_destroy();
 // Cliquez <a href="'.htmlspecialchars($_SERVER['HTTP_REFERER']).'">ici</a> 
 // pour revenir à la page précédente.<br />
 echo '<p>Vous êtes à présent déconnecté <br/>
-Cliquez <a href="index.html">ici</a> pour revenir à la page principale</p>';
+Cliquez <a href="../index.html">ici</a> pour revenir à la page principale</p>';
 echo '</div></body></html>';
 ?>

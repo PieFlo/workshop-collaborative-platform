@@ -9,21 +9,19 @@
 session_start();
 include('../functions.php');
 ?>
-<a href='listSujets.php'>Retour<a/><br/>
+<div><a href='listSujets.php'>Retour<a/></div><br/>
 <form method="post" action="addMessage.php">
     <div>
-    <label for="nomSujet">Nom du sujet</label>
-    <input id="nomSujet" name="nomSujet" />
-    </div>
+
+    <input id="nomSujet" name="nomSujet"  placeholder="Votre sujet." required />
+    </div><br/>
     <input type="hidden" id="idAuteur" name="idAuteur" value="<?= $_SESSION['idEtudiant'] ?>"/>
     <div>
-    <label for="contenu">Premier message</label>
-    <textarea id="contenu" name="contenu" rows="10" cols="50">
-    </textarea>
-    </div>
+    <textarea id="contenu" name="contenu" rows="10" cols="50" placeholder="Votre texte." required></textarea>
+    </div><br/>
     <input type="submit" value="Submit">
 </form>
 
 <?php
-displayVar();
+//displayVar();
 ?>

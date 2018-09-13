@@ -28,8 +28,9 @@ foreach ($messages as $message){
 <form method="post" action="addMessage.php">
     <input type="hidden" id="idAuteur" name="idAuteur" value="<?= $_SESSION['idEtudiant'] ?>"/>
     <input type="hidden" id="idSujet" name="idSujet" value="<?= $messages[0]['idSujet'] ?>"/>
-    <textarea id="contenu" name="contenu" rows="10" cols="50">
-    </textarea>
+    <div>
+        <textarea id="contenu" name="contenu" rows="10" cols="50" placeholder="Votre texte." required></textarea>
+    </div><br/>
     <input type="submit" value="Submit">
 </form>
 <?php } else
