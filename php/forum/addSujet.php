@@ -10,7 +10,7 @@ session_start();
 include('../functions.php');
 ?>
 <a href='listSujets.php'>Retour<a/><br/>
-<form method="post" action="">
+<form method="post" action="addMessage.php">
     <div>
     <label for="nomSujet">Nom du sujet</label>
     <input id="nomSujet" name="nomSujet" />

@@ -13,25 +13,38 @@ if (isset($_POST) && count($_POST) > 0) {
 
     extract(array_map("htmlspecialchars", $_POST));
     $bdd = getDataBase();
-
+    if(isset($_POST['nomSujet'])){ // Si on vient de addSujet.php
         try {
-            $stmt = $bdd->prepare("INSERT INTO message(idAuteur, idSujet, contenu, dateMessage) 
-                                            VALUES (:idAuteur,:idSujet,:contenu,:dateMessage)");
+            $stmt = $bdd->prepare("INSERT INTO sujet(nomSujet, idAuteur, dateDernierMsg) VALUES (:nomSujet, :idAuteur, :dateDernierMsg)");
+            $stmt->bindParam(':nomSujet', $nomSujet);
             $stmt->bindParam(':idAuteur', $idAuteur);
-            $stmt->bindParam(':idSujet', $idSujet);
-            $stmt->bindParam(':contenu', $contenu);
-            $stmt->bindParam(':dateMessage', $dateMessage);
-
+            $stmt->bindParam(':dateDernierMsg', $dateMessage);
 
             $nbInsert = $stmt->execute();
+            $idSujet = $bdd->lastInsertId();
         } catch (Exception $e) {
             $nbInsert = 0;
         }
-        if ($nbInsert == 1) {
-            header('Location:listMessages.php?id='.$idSujet);
-        } else {
-            echo "Le message n'as pas été envoyé.";
-        }
+        if($nbInsert<1)
+            echo "Le sujet n'as pas été ajouté.";
+    }
+    try {
+        $stmt = $bdd->prepare("INSERT INTO message(idAuteur, idSujet, contenu, dateMessage)
+                                        VALUES (:idAuteur,:idSujet,:contenu,:dateMessage)");
+        $stmt->bindParam(':idAuteur', $idAuteur);
+        $stmt->bindParam(':idSujet', $idSujet);
+        $stmt->bindParam(':contenu', $contenu);
+        $stmt->bindParam(':dateMessage', $dateMessage);
+
+        $nbInsert = $stmt->execute();
+    } catch (Exception $e) {
+        $nbInsert = 0;
+    }
+    if ($nbInsert > 0) {
+        header('Location:listMessages.php?id='.$idSujet);
+    } else {
+        echo "Le message n'as pas été envoyé.";
+    }
 
 }else
     header('Location:listSujets.php');
