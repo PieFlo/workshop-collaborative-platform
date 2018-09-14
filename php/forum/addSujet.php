@@ -7,6 +7,7 @@
  */
 
 session_start();
+include('header.html');
 include('../functions.php');
 ?>
 <div><a href='listSujets.php'>Retour<a/></div><br/>
@@ -23,5 +24,6 @@ include('../functions.php');
 </form>
 
 <?php
+include('footer.html');
 //displayVar();
 ?>

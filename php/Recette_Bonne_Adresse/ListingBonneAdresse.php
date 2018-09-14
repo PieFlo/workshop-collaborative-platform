@@ -76,6 +76,7 @@ if($row = $response->fetch()) {
                 $reponse->closeCursor(); // Termine le traitement de la requête
                 ?>
             </table>
+            <a href="DisplayBonneAdresse.php">Mes bonnes adresses</a>
         </div>
     </div>
 </div>

@@ -7,6 +7,7 @@
  */
 if(isset($_GET) && count($_GET) > 0 ){
 session_start();
+    include('header.html');
 include('../functions.php');
 echo "<a href='listSujets.php'>Retour<a/>";
 $bdd = getDataBase();
@@ -36,5 +37,6 @@ foreach ($messages as $message){
 <?php } else
     header('Location:listSujets.php');
 //displayVar();
+include('footer.html');
 ?>
 

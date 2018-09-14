@@ -15,7 +15,6 @@
 
             <div class="wrap-login100 p-t-190 p-b-30">
                 <div class="text-center w-full">
-                    <h1>Bonjour M.(Mme), vous pouvez vous incrire</h1><br>
                     <h2>EPSI FOODTRUCK PARCKING LOT</h2>
                 </div>
                 Bienvenue à l'EPSI PARKING LOT. <br /><br />Ici vous pouvez enregistrer votre Food Truck et aider
@@ -26,6 +25,9 @@
 
 
     <div class="container">
+        <div class="text-center w-full">
+            <h1><a class="txt1" href="../../index.html">Revenir à l'accueil</a></h1><br>
+        </div>
         <h3>Formulaire d'inscription</h3>
         <form class="login100-form validate-form" action="insertFoodTruck.php" method="post" enctype="multipart/form-data">
             <div class="wrap-input100 validate-input m-b-10">
