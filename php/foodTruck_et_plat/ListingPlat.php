@@ -1,4 +1,5 @@
 <?php
+session_start();
 /**
  * Created by PhpStorm.
  * User: Yannis
@@ -49,7 +50,7 @@ if($row = $response->fetch()) {
                 <?php
                 include('../functions.php');
                 $bdd = $bdd = getDatabase();
-                $reponse = $bdd->query('SELECT * FROM plat');
+                $reponse = $bdd->query('SELECT * FROM plat order by idPlat');
                 while ($row1 = $reponse->fetch()) {
 
                     ?>
@@ -63,7 +64,16 @@ if($row = $response->fetch()) {
                         <td><?php echo $row1['allergies']; ?></td>
                         <td>
                             <?php
-                            echo "Consulter le plat : <a href='templateplat.php?id=" . $row1["idPlat"] . "'>" . $row1["idPlat"] . "<a><br>";
+                            echo "<form method='post' action='templateplat.php'>";
+                            echo "<input type='hidden' name='idPlat' value='". $row1['idPlat'] . "' >";
+                            echo "<input type='hidden' name='idCamion' value='". $row1['idCamion'] . "' >";
+                            echo "<input type='hidden' name='prix' value='". $row1['prix'] . "' >";
+                            echo "<input type='number' name='quantite'>";
+                            echo "<input type='submit' value='achetter'>";
+                            echo "</form>";
+                            ?>
+                                    <?php
+
                             ?>
                         </td>
                     </tr>
@@ -75,4 +85,5 @@ if($row = $response->fetch()) {
             </table>
         </div>
     </div>
+
 </div>
