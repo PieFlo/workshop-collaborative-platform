@@ -34,7 +34,7 @@ $fileextension= strtolower($fileextension);
 
 if (isset($name)) {
 
-    $path= '../../images/recette/';
+    $path= '../../images/';
 
     if (!empty($name)){
         if (move_uploaded_file($tmp_name, $path.$name)) {

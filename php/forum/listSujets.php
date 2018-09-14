@@ -15,7 +15,7 @@ $stmt = $bdd->prepare("SELECT idSujet, idAuteur, nomSujet, pseudo, dateDernierMs
 $stmt->execute();
 $sujets = $stmt->fetchAll();
 ?>
-<table >
+<table class="table">
     <thead>
     <tr>
         <th width="300">Sujet</th>
@@ -34,3 +34,4 @@ foreach ($sujets as $sujet){
 }
 include('footer.html');
 ?>
+</table>
