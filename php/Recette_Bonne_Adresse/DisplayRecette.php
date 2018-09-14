@@ -71,7 +71,7 @@ if (!isset($_SESSION['idAdmin'])) {
                 $reponse->closeCursor(); // Termine le traitement de la requête
                 ?>
             </table>
-            <a href="ListingRecette.php.php">Retour</a>
+            <a href="ListingRecette.php">Retour</a>
             <?php echo "<a href='AddRecette.php?id=" . $row1["idRecette"] . "'>" . "Ajouter une recette" . "<a>"; ?>
         </div>
     </div>
