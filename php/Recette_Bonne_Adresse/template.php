@@ -115,7 +115,7 @@ $budget = 'DEBUG budget';
 								<div class="col-lg-4 col-md-4 col-sm-6">
 									<div class="fh5co-blog animate-box">
 
-                                        <img class="img-responsive" src="images/<?php echo $img ;?>">
+                                        <img class="img-responsive" src="../../images/<?php echo $img ;?>">
 
 								</div>
 							</div>
